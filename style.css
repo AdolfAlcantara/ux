@@ -1,0 +1,133 @@
+
+* {
+    box-sizing: border-box;
+}
+
+
+body{
+    display: block;
+    margin: 8px;
+}
+
+.my-brand{
+    text-align: center;
+    font-size: 60px;
+    font-weight: normal;
+}
+
+h2{
+    font-family: "Snell Roundhand";
+    font-weight: normal;
+    font-size: 40px;
+    text-align: center;
+    font-style: italic;
+}
+
+p{
+    font-size: 22px;
+}
+
+
+.group1{
+    width:100%;
+    height: auto;
+    display: flex;
+    float: left;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+}
+
+.group2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    float: left;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-content: stretch; */
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+}
+
+.gp1_1{
+    height: auto;
+    width: 25%;
+    padding: 1%;
+    margin: 0%;
+    border-right: 1px solid black;
+    
+}
+
+.gp1_2{
+    height: auto;
+    width: 50%;
+    padding: 1%;
+    margin: 0%;
+    border-right: 1px solid black;
+    
+}
+
+.img{
+    width: 100%
+}
+
+.group2_2{
+    height: auto;
+    width: 75%;
+    padding: 1%;
+    margin: 0%;
+    
+}
+
+.main{
+    border-bottom-width: 100%;
+    border-bottom: 3px solid black;
+}
+
+.itemList{
+   
+    display: flex;
+    align-items: center;
+    flex: 1;
+    border-bottom: 1px solid black;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    padding: 0;
+    margin: 0;  
+    width: 75%;
+}
+
+h3{
+    margin-left: 10%;
+    font-size: 30px;
+}
+
+.itemcolor_politics{
+    background-color: aqua;
+}
+
+.itemcolor_tech{
+    background-color: burlywood;
+}
+
+.itemcolor_local{
+    background-color: tomato;
+}
+
+.itemcolor_opinion{
+    background-color: rgb(129, 211, 129);
+}
+
+.itemcolor_sports{
+    background-color: rgb(238, 137, 224)
+}
